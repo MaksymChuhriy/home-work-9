@@ -110,7 +110,8 @@ html, body{
     align-items:center;
     justify-content:center;
     flex-wrap:wrap;
-    gap:45px;
+    gap:30px;
+    padding:10px;
 }
 .projects__item {
     display:flex;
@@ -151,18 +152,19 @@ html, body{
     margin-inline:auto;
     width: min(100% - var(--gap-xl), var(--container-primary)) ;
     height:var(--container-video);
+    border:0px;
 }
 .footer,.projects, .design__button {
     background-color: var(--color-secondary);
     color:var(--color-white);
 }
 .footer{
-    height:min(16vh,150px);
+    height:min(10vh,150px);
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-left:min(400px,16vw);
+    padding-left:min(400px,3vw);
 }
 
 .footer__bottom{
