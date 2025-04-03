@@ -159,12 +159,11 @@ html, body{
     color:var(--color-white);
 }
 .footer{
-    height:min(10vh,150px);
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding-left:min(400px,3vw);
+    padding: 50px 0px;
+}
+.footer__container{
+    width: min(100% - var(--gap-xl), var(--container-primary));
+    margin-inline:auto;
 }
 
 .footer__bottom{
