@@ -34,7 +34,7 @@ body {
 }
 .header {
   background-color: var(--color-primary);
-  padding-top: 79px;
+  padding-top: 65px;
   padding-bottom: 141px;
 }
 .section {
@@ -44,7 +44,7 @@ body {
   background-color: var(--color-primary);
 }
 .navbar {
-  margin-bottom: 162px;
+  margin-bottom: 141px;
 }
 .navbar__list {
   display: flex;
@@ -56,7 +56,7 @@ body {
   text-transform: uppercase;
   padding: 15px;
   color: var(--color-black);
-  letter-spacing: 0.1em;
+  letter-spacing: var(--letter-spacing);
 }
 .link--active,
 .title {
@@ -72,12 +72,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 62px;
   max-width: var(--container-secondary);
 }
 .design__title {
   font-size: 3rem;
   line-height: var(--line-height-sm);
+  margin-bottom: 40px;
 }
 .design__text,
 .about__text {
@@ -92,6 +92,8 @@ body {
   min-width: 225px;
   min-height: 65px;
   color: var(--color-white);
+  margin-top: 60px;
+  letter-spacing: 0.1em;
 }
 .about {
   gap: var(--gap);
@@ -104,8 +106,24 @@ body {
 }
 .about__title,
 .work__title,
-.experience__title {
+.projects__experience {
   font-size: 2rem;
+}
+.work__text {
+  text-align: center;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  visibility: hidden;
 }
 
 .projects__container {
@@ -122,7 +140,7 @@ body {
   height: 50px;
   width: 140px;
 }
-.info__number,
+.projects__item-number,
 .footer__top {
   font-size: 1.3rem;
 }
