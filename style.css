@@ -80,11 +80,11 @@ body {
 .navbar__link--first {
   padding-left: 0;
 }
-.link--active,
+.navbar__link--active,
 .title {
   font-weight: var(--font-weight-title);
 }
-.link--active {
+.navbar__link--active {
   color: var(--color-link--active);
 }
 /* Design */
