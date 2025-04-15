@@ -186,3 +186,21 @@ body {
 .footer__bottom {
   font-size: 0.8rem;
 }
+
+@media (width < 992px) {
+  .navbar {
+    margin-bottom: 70px;
+  }
+}
+@media (width < 992px) {
+  .navbar__list {
+    justify-content: center;
+  }
+}
+@media (width < 576px) {
+  .work,
+  .about {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+}
