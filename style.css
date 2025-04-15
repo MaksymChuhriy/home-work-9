@@ -196,9 +196,7 @@ body {
   .navbar {
     margin-bottom: 70px;
   }
-  .navbar__list {
-    justify-content: center;
-  }
+
   .projects {
     justify-content: space-evenly;
   }
@@ -213,5 +211,8 @@ body {
   .section {
     padding-top: 70px;
     padding-bottom: 50px;
+  }
+  .navbar__list {
+    justify-content: center;
   }
 }
