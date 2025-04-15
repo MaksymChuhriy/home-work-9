@@ -16,7 +16,6 @@
 
   --container-primary: 1110px;
   --container-secondary: 540px;
-  --container-video: 600px;
 
   --font-weight-title: 500;
   --font-weight-normal: 400;
@@ -168,7 +167,13 @@ body {
 .work__video {
   width: min(100% - var(--gap-xl), var(--container-primary));
   height: var(--container-video);
+}
+.video__iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   border: 0;
+  min-height: 200px;
 }
 /* Footer */
 .footer,
@@ -191,15 +196,21 @@ body {
   .navbar {
     margin-bottom: 70px;
   }
-}
-@media (width < 992px) {
   .navbar__list {
     justify-content: center;
   }
+  .projects {
+    justify-content: space-evenly;
+  }
 }
+
 @media (width < 576px) {
   .work,
   .about {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .section {
     padding-top: 70px;
     padding-bottom: 50px;
   }
